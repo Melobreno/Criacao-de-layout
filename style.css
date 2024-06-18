@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: rgb(59, 148, 189);
+}
+
+div.personal-banner{
+    border-radius: 6px;
+    max-width: 210px;
+    background-color: rgb(255, 184, 52);
+    padding: 15px;    
+}
+
+.personal-banner h4{
+    padding: 10px 0px;
+    font: 14pt 600 black;    
+}
+
+div.personal-banner ul{
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.tela-principal{
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+div.task-container{
+    position: relative;
+    background-color: rgb(255, 184, 52);
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+div.task-tittle{
+    display: flex;
+    max-width: fit-content;
+    margin: auto;
+    gap: 180px;
+    margin-bottom: 10px;
+}
+
+div.task-content{
+    display: flex;
+    max-width: fit-content;
+    margin: auto;
+    gap: 100px;
+}
+
+.input-task{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;    
+    margin: auto;
+    padding: 10px;
+}
+
+

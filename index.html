@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista</title>
+</head>
+<body>
+    <header></header>
+
+    <section class="tela-principal">
+
+        <div class="personal-banner">
+            <img src="assets/portrait-white-man-isolated.jpg" width="180px" height="150px" style="border-radius: 6px;" alt="">
+            <h4 class="userName">Nome Usuário</h4>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor laborum reprehenderit laboriosam. Quibusdam odio harum magni. Expedita similique cupiditate eaque quod eum explicabo officiis illo mollitia tempora, perspiciatis ab. Aperiam?</p>
+            <br>
+            <ul>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contatos</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Produtos</a></li>                
+            </ul>
+        </div>
+
+        <div class="task-container">            
+            <div class="task-tittle">
+                <h2>Dia</h2>  
+                <h2>Noite</h2>
+            </div>
+            
+            <div class="task-content">
+                <div class="task-dia">
+                    <ol id="lista-dia">
+                        <li><span>Trabalhar</span> <button class="btn-remove">Apagar</button></li>
+                        <li><span>Fazer Compras</span> <button class="btn-remove">Apagar</button></li>
+                        <li><span>Buscar Crianças</span> <button class="btn-remove">Apagar</button></li>
+                    </ol>
+                </div>
+                <div class="task-noite">
+                    <ol id="lista-noite">
+                        <li><span>Preparar Jantar</span> <button class="btn-remove">Apagar</button></li>
+                        <li><span>Limpar cozinha</span> <button class="btn-remove">Apagar</button></li>
+                        <li><span>Ler</span> <button class="btn-remove">Apagar</button></li>
+                    </ol>
+                </div>                
+            </div>  
+
+            <p class="input-task">
+                <input type="text" name="txtInput" id="txtInput">
+                <input type="button" value="Adicionar Tarefa" id="btnInput">
+            </p>
+        </div>     
+    </section>
+
+    <footer></footer>
+        <script src="script.js"></script>
+</body>
+</html>
